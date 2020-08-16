@@ -35,11 +35,6 @@
   editMode(id) {
     this.editing = id
   },
-
-  editEmployee(employee) {
-    if (employee.name === '' || employee.email === '') return
-    this.$emit('edit-employee', employee)
-  }
 }
   }
 </script>
